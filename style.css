@@ -1,0 +1,90 @@
+/* @media (max-width: 576px) {
+  body {
+    
+  }
+} */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  background-color: rgb(179, 246, 255);
+  display: flex;
+  height: auto;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.photo {
+  height: auto;
+  width: 500px;
+}
+header {
+  display: flex;
+  background-color: darkslategrey;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  color: whitesmoke;
+}
+
+.description {
+  display: flex;
+  color: rgb(51, 95, 139);
+  font-family: Berlin Sans FB;
+  font-size: 20px;
+}
+
+#sticky-footer {
+  display: flex;
+  background-color: darkslategrey;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+  color: tomato;
+  font-size: 25px;
+}
+
+.row {
+  border: 5px dashed purple;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.about {
+  border: 5px dashed green;
+  flex-direction: column;
+  font-size: 24px;
+  align-content: center;
+  margin: 65px;
+  padding: 5px;
+}
+
+#repos {
+  width: 600px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  margin-right: 5px;
+  margin-left: 5px;
+  border: 5px solid blue;
+  padding: 5px;
+}
+
+#button {
+  background-color: tomato;
+  padding: 3px;
+  font-family: monospace;
+}
+
+/* #smicons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 3px;
+} */
